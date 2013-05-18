@@ -1,0 +1,23 @@
+<!-- This is form -->
+
+<center>
+<a href=”http://tinypic.com?ref=307yh44&#8243; target=”_blank”><img src=”http://i40.tinypic.com/307yh44.gif&#8221; border=”0″ ></a>
+
+Converti numero decimale
+<form action=”1.php” method=”post”>
+<input type=”text” name=”valore”>
+<input type=”submit” value=”Converti”>
+</form>
+</center>
+
+<!-- This is script online -->
+
+<?php
+$variabile = $_POST['valore'];
+$variabile1 = decbin($variabile);
+$variabile2 = decoct($variabile);
+$variabile3 = dechex($variabile);
+echo ” <span style=\”font-size:200%\”> RISULTATI: </span> <br> “;
+echo “<b> Il risultato della conversione in binario &egrave : $variabile1 <b> <br>” ;
+echo “<b> Il risultato della conversione in ottale &egrave : $variabile2<b> <br> ” ;
+echo “<b> Il risultato della conversione in esadecimale &egrave : $variabile3 <b> <br>” ;
