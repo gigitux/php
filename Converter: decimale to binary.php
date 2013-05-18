@@ -8,3 +8,4 @@ $nuovo_valore = decbin($valore);
 // write input back
 
 fwrite(STDOUT, “\nIl risultato della conversione di $valore in binario: $nuovo_valore\n”);
+?>
